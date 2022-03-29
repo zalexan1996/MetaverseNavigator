@@ -1,0 +1,69 @@
+﻿<Page x:Class="MetaverseNavigator.MainMenuPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MetaverseNavigator"
+      mc:Ignorable="d"
+      Title="MainMenuPage">
+    <Page.Background>
+        <ImageBrush ImageSource="\Resources\Backgrounds\Background1.png" AlignmentX="Center" AlignmentY="Center" Stretch="Fill"/>
+    </Page.Background>
+
+    <Canvas HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+
+        <Button HorizontalAlignment="Center" Canvas.Top="230" Canvas.Right="375" VerticalAlignment="Center" Tag="Confidants" Name="BtnConfidants" Style="{StaticResource MainButton1}" Click="Btn_Click">
+            <Button.LayoutTransform>
+                <RotateTransform Angle="-1" />
+            </Button.LayoutTransform>
+            <local:PersonaTextBlock PersonaText="Confidants" FontSize="40"/>
+        </Button>
+
+        <Button HorizontalAlignment="Center" Canvas.Top="273" Canvas.Right="425" VerticalAlignment="Center" Tag="Skills" Name="BtnSkills" Style="{StaticResource MainButton1}" Click="Btn_Click">
+            <Button.LayoutTransform>
+                <RotateTransform Angle="1" />
+            </Button.LayoutTransform>
+            <local:PersonaTextBlock PersonaText="Skills" FontSize="40"/>
+        </Button>
+
+        <Button HorizontalAlignment="Center" Canvas.Top="305" Canvas.Right="400" VerticalAlignment="Center" Tag="Compendium" Name="BtnCompendium" Style="{StaticResource MainButton1}" Click="Btn_Click">
+            <Button.LayoutTransform>
+                <RotateTransform Angle="2" />
+            </Button.LayoutTransform>
+            <local:PersonaTextBlock PersonaText="Compendium" FontSize="40"/>
+        </Button>
+
+
+        <TextBlock FontFamily="Malgun Gothic" Text="Zach" FontSize="34" Foreground="White" FontWeight="Bold" Canvas.Top="5" Canvas.Right="190">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="-15"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+
+        <TextBlock FontFamily="Malgun Gothic" Text="Alexander" FontSize="34" Foreground="Black" FontWeight="Bold" Canvas.Top="83" Canvas.Right="100">
+            <TextBlock.LayoutTransform>
+                <RotateTransform Angle="-4"/>
+            </TextBlock.LayoutTransform>
+        </TextBlock>
+    </Canvas>
+
+    <!-- Old
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Button Tag="Confidants" Name="BtnConfidants" Grid.Row="0" Style="{StaticResource MainButton1}" Click="Btn_Click">
+            <local:PersonaTextBlock PersonaText="Confidants" FontSize="40"/>
+        </Button>
+        <Button Tag="Compendium" Name="BtnCompendium" Grid.Row="1" Style="{StaticResource MainButton1}" Click="Btn_Click">
+            <local:PersonaTextBlock PersonaText="Compendium" FontSize="40"/>
+        </Button>
+        <Button Tag="Skills" Name="BtnSkills" Grid.Row="2" Style="{StaticResource MainButton1}" Click="Btn_Click">
+            <local:PersonaTextBlock PersonaText="Skills" FontSize="40"/>
+        </Button>
+    </Grid> -->
+</Page>

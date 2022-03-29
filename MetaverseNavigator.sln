@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetaverseNavigator", "MetaverseNavigator\MetaverseNavigator.csproj", "{3C7AEBCA-E8D0-4E58-A8B5-8AD86E6E558C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseTester", "DatabaseTester\DatabaseTester.csproj", "{D7AB80C9-007F-4D33-A862-BD0491F2DEC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C7AEBCA-E8D0-4E58-A8B5-8AD86E6E558C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7AEBCA-E8D0-4E58-A8B5-8AD86E6E558C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7AEBCA-E8D0-4E58-A8B5-8AD86E6E558C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7AEBCA-E8D0-4E58-A8B5-8AD86E6E558C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7AB80C9-007F-4D33-A862-BD0491F2DEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7AB80C9-007F-4D33-A862-BD0491F2DEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7AB80C9-007F-4D33-A862-BD0491F2DEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7AB80C9-007F-4D33-A862-BD0491F2DEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FAB2B5F-EA19-44A3-99B2-25C5A14CE232}
+	EndGlobalSection
+EndGlobal
