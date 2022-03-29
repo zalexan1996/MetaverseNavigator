@@ -19,14 +19,14 @@
             <local:PersonaTextBlock PersonaText="Confidants" FontSize="40"/>
         </Button>
 
-        <Button HorizontalAlignment="Center" Canvas.Top="273" Canvas.Right="425" VerticalAlignment="Center" Tag="Skills" Name="BtnSkills" Style="{StaticResource MainButton1}" Click="Btn_Click">
+        <Button HorizontalAlignment="Center" Canvas.Top="273" Canvas.Right="425" VerticalAlignment="Center" Tag="Skills" Name="BtnSkills" Style="{StaticResource MainButton1}">
             <Button.LayoutTransform>
                 <RotateTransform Angle="1" />
             </Button.LayoutTransform>
             <local:PersonaTextBlock PersonaText="Skills" FontSize="40"/>
         </Button>
 
-        <Button HorizontalAlignment="Center" Canvas.Top="305" Canvas.Right="400" VerticalAlignment="Center" Tag="Compendium" Name="BtnCompendium" Style="{StaticResource MainButton1}" Click="Btn_Click">
+        <Button HorizontalAlignment="Center" Canvas.Top="305" Canvas.Right="400" VerticalAlignment="Center" Tag="Compendium" Name="BtnCompendium" Style="{StaticResource MainButton1}">
             <Button.LayoutTransform>
                 <RotateTransform Angle="2" />
             </Button.LayoutTransform>
