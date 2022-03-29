@@ -13,3 +13,6 @@ A work-in-progress companion app for Persona 5. Includes:
 - Maps
 - Skills
 - Fusion Calculator
+
+## Credits
+- Icons taken from megamitensei.fandom.com
