@@ -73,7 +73,7 @@
 
     <DockPanel>
         <ScrollViewer DockPanel.Dock="Left">
-            <ItemsControl Name="tStack" ItemsSource="{Binding Confidants}">
+            <ItemsControl Name="tStack" ItemsSource="{Binding Confidants}" Background="Black">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <StackPanel/>
@@ -100,7 +100,7 @@
                 </Grid.ColumnDefinitions>
                 
                 <Border Grid.Column="0" BorderBrush="{StaticResource Black1}" BorderThickness="1">
-                    <Border BorderBrush="{StaticResource Red3}" BorderThickness="1">
+                    <Border BorderBrush="Black" BorderThickness="1">
                         <Image Source="{Binding IconPath}" Name="imageConfidant" Width="100" Height="100" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
                     </Border>
                 </Border>
@@ -242,13 +242,13 @@
                                         </DataTemplate>
                                     </GridViewColumn.CellTemplate>
                                 </GridViewColumn>
-                                <GridViewColumn Header="#" Width="60">
+                                <!-- <GridViewColumn Header="#" Width="60">
                                     <GridViewColumn.CellTemplate>
                                         <DataTemplate>
                                             <TextBlock Text="{Binding ResponseNumber}"/>
                                         </DataTemplate>
                                     </GridViewColumn.CellTemplate>
-                                </GridViewColumn>
+                                </GridViewColumn> -->
                                 <GridViewColumn Header="Response">
                                     <GridViewColumn.CellTemplate>
                                         <DataTemplate>
